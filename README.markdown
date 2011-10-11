@@ -1,0 +1,1 @@
+This is our playground for learning rails and working on Code Mountain.
