@@ -1,4 +1,10 @@
 CmTestApp::Application.routes.draw do
+  get "pages/login"
+
+  get "pages/profile"
+
+  get "pages/sprints"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
