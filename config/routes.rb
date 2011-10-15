@@ -1,9 +1,10 @@
 CmTestApp::Application.routes.draw do
-  get "pages/login"
-
-  get "pages/profile"
-
-  get "pages/sprints"
+  
+  root :to => 'pages#login'
+  
+  match 'login'   => 'pages#login'
+  match 'profile' => 'pages#profile'
+  match 'sprints' => 'pages#sprints'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

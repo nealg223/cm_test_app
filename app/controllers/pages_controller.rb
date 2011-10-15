@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   end
 
   def profile
-    @title = "Contact"
+    @title = "Profile"
   end
 
   def sprints
